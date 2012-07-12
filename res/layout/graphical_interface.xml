@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graphical_background_00" >
+
+    <ListView
+        android:id="@+id/graphicalListView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="32"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="68"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" >
+        </View>
+
+        <GridView
+            android:id="@+id/graphicalGridView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="7.5"
+            android:columnWidth="110dp"
+            android:gravity="center"
+            android:numColumns="2"
+            android:verticalSpacing="25dp" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/icon_dish_00"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="goLastActivity"
+                    android:text="取 消"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/icon_dish_00"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="goCheckoutActivity"
+                    android:text="確 認"
+                    android:textColor="@color/white"
+                    android:textSize="24dp" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

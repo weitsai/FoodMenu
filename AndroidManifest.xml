@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.android.Menu_07"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/icon_menu_50x50"
+        android:label="點餐機 new"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:label="點餐機 new"
+            android:name=".Menu_07Activity"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="LiteralInterfaceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="GraphicalInterfaceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="GraphicalEveryMealActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="NoOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="CheckOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

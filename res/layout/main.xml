@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index_background_00"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" >
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:background="@drawable/index_title_00"
+            android:gravity="center|bottom"
+            android:padding="10dp"
+            android:text="點餐系統"
+            android:textColor="@color/orange"
+            android:textSize="58dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" >
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/orange"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@drawable/index_dish_00"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="goLiteralInterfaceActivity"
+            android:text="文字介面"
+            android:textSize="38dp" >
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@drawable/index_dish_00"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="goGraphicalInterfaceActivity"
+            android:text="圖形介面"
+            android:textColor="@color/orange"
+            android:textSize="38dp" >
+
+        </TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </View>
+    </LinearLayout>
+
+</LinearLayout>

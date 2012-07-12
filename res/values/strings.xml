@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, Menu_07Activity!</string>
+	<string name="app_name">Menu_07</string>
+	<string name="tableNumber">桌號</string>
+	<string name="waiterID">服務生</string>
+
+</resources>

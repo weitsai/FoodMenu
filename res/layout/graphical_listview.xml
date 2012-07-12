@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/graphicalListViewTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/orange"
+        android:gravity="center"
+        android:textSize="24dp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/graphicalListViewImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:gravity="center" >
+    </ImageView>
+
+</LinearLayout>
